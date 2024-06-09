@@ -37,9 +37,7 @@ impl Mortgage {
             } else {
                 remaining_balance -= self.prepayment;
             }
-            if remaining_balance < 0.0 {
-                remaining_balance = 0.0
-            };
+           
         }
         remaining_balance
     }
